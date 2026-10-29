@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Clad Labs is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by y-combinator) and added to the network as a stub for full-pipeline profiling.
-- https://useclad.ai
+Clad Labs builds an AI-powered support platform that triages, investigates, and resolves customer support tickets across Slack, Discord, Teams, and email. The system captures conversation threads, provides evidence‑backed handoffs, and automates ticket creation with root‑cause analysis. By integrating with existing tools and ticketing systems, Clad enables teams to resolve issues faster while preserving knowledge in a centralized knowledge base. The platform offers a widget SDK for embedding support chat, a GraphQL API for workspace data, and customizable AI agents to assist support engineers.
+
+**Areas:** Company · AI · Support · SaaS · Automation
+
+## Clad Labs on APIs.io
+
+Everything profiled for Clad Labs is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/useclad-ai/](https://apis.io/providers/useclad-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Clad Labs API](https://apis.io/apis/useclad-ai/useclad-ai-api/) — Clad Labs API as documented publicly: 23 operations. Contract generated from the documentation by API Evangelist (2026-10-29); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetGraphqlResponse](https://apis.io/schemas/useclad-ai/useclad-ai-get-graphql-response/)
+- [PostConversationsIdMessagesRequest](https://apis.io/schemas/useclad-ai/useclad-ai-post-conversations-id-messages-request/)
+- [PostConversationsRequest](https://apis.io/schemas/useclad-ai/useclad-ai-post-conversations-request/)
+- [PostGraphqlRequest](https://apis.io/schemas/useclad-ai/useclad-ai-post-graphql-request/)
+- [PostGraphqlResponse](https://apis.io/schemas/useclad-ai/useclad-ai-post-graphql-response/)
+- [PostSessionsIdentifyRequest](https://apis.io/schemas/useclad-ai/useclad-ai-post-sessions-identify-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Useclad Ai Context](https://apis.io/jsonld/useclad-ai/useclad-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Clad Labs API Rules](https://apis.io/rules/useclad-ai/useclad-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Useclad Ai Authentication](https://apis.io/security/useclad-ai/useclad-ai-authentication/)
+- [Useclad Ai Domain Security](https://apis.io/security/useclad-ai/useclad-ai-domain-security/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Useclad Ai Rate Limits](https://apis.io/rate-limits/useclad-ai/useclad-ai-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.useclad.ai)
+- [Documentation](https://docs.useclad.ai)
+- [Getting started](https://www.useclad.ai/get-started)
+- [API reference](https://docs.useclad.ai/api/overview)
+- [Pricing](https://www.useclad.ai/pricing)
+- [Blog](https://www.useclad.ai/blog)
+- [Terms of service](https://www.useclad.ai/terms)
+- [Privacy policy](https://www.useclad.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 48.0** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 53.5 |
+| Contract governance | 70.9 |
+| Operational transparency | 18.9 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 31.6 |
+
+**Agent readiness 23.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/useclad-ai/](https://apis.io/providers/useclad-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Clad Labs: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/useclad-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
